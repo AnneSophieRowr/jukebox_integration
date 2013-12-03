@@ -1,0 +1,220 @@
+
+<style type="text/css">
+
+	body { 
+		background-image: url(images/background.jpg); 
+		background-size : cover;
+		padding: 90px;
+		color: white;
+	}
+
+	#left_column {
+		float: left
+	}
+	
+	.playlist_list {
+		float: right;
+		margin-top: 20px;
+	}
+	
+	.logo_titre {
+		background-image: url(images/logo_titre.png);
+		background-repeat: no-repeat ;
+		width: 479px;
+		height: 432px;
+		margin-left: -100px;
+		margin-top: -100px;
+	}
+
+	ul {
+		margin-left: -60px;
+		margin-top: -37px;
+	}
+
+	li {
+		background-image: url(images/button.png);
+		width: 346px;
+		height: 123px;
+		display: table;
+		text-align: center;
+		margin-bottom: 67px;
+	}
+
+	li:hover {
+		background-image: url(images/button_pushed.png);
+	}
+
+	a {
+		display: table-cell;
+		vertical-align: middle;
+		text-decoration: none;
+		color: white;
+		font-size: 25px;
+		font-family: arial;
+		text-transform: uppercase;
+	}
+	
+	input {
+		border:solid 1px #BFBDBD;
+		color: black;
+		font-size: 35px;
+		width: 1734px;
+		height: 42px;
+		float: right;
+		margin-right: 157px;
+	}
+	
+	.barre_recherche {
+		background-image: url(images/barre_recherche.png);
+		width: 1915px;
+		height: 116px;
+		background-repeat: no-repeat;
+		margin-right: 60px;
+		padding-top:40px;
+		margin-top: -79px;	
+	}
+	
+	.loupe {
+		background-image: url(images/loupe.png);
+		width: 40px;
+		height: 42px;
+		background-repeat: no-repeat;
+		float: right;
+		padding-left: 58px;
+		margin-top: -38px;
+	}
+	
+	.list {
+		background-image: url(images/background_liste.png);
+		width: 1909px;
+		height: 1144px;
+		background-repeat: no-repeat;
+	}
+	
+	.player{
+		background-image: url(images/player.png);
+		width: 1908px;
+		height: 124px;
+		margin-top: 90px;
+	}
+	
+	table {
+		width: 1911px;
+		height: 1079px;
+		padding: 20px;
+	}
+
+	.head {
+		background-image: url('images/rectangle_rouge.png');
+		width: 1872px;
+		height: 72px;
+		display: inline-table;
+		background-repeat: no-repeat;
+		margin-bottom: 41px;
+		
+	}
+	
+	.head_2 {
+		background-image: url('images/rectancle_droit_sombre.png');
+		width: 1871px;
+		height: 71px;
+		background-repeat: no-repeat;
+		display: inline-table
+	}
+	
+	.head_3 {
+		background-image: url('images/rectancle_droit_claire.png');
+		width: 1871px;
+		height: 71px;
+		background-repeat: no-repeat;
+		display: inline-table
+	}
+	
+	td {
+		text-align: center;
+		font-size: 25px;
+	}
+	
+	.small {
+		width: 14%
+	}
+	
+	
+	.large {
+		width: 30%
+	}
+	
+	
+	th {
+		text-align: center;
+		font-size: 25px;
+	}
+	
+	.small {
+		width: 14%
+	}
+	
+	.large {
+		width: 30%
+	}
+	
+</style>
+
+<html>
+  <head>
+    <title>Jukebox</title>
+  </head>
+  <body>
+	<div id="left_column">
+		<div class="logo_titre"></div>
+		<ul>
+			<li><a href='#'>recherche</a></li></br>
+			<li><a href='#'>dernieres playlists </br> ajoutees</a></li></br>
+			<li><a href='#'>playlists genre </br> musical</a></li></br>
+			<li><a href='#'>playlists des </br> lecteurs</a></li></br>
+			<li><a href='#'>actualite </br> musicale</a></li></br>
+			<li><a href='#'>mentions </br> legales</a></li>
+		</ul>
+	</div>
+	
+		
+	
+	<div class="playlist_list">
+		<div class="barre_recherche">
+			<input></input>
+			<div class="loupe"></div>
+		</div>
+		<div class="list">
+			<table cellpadding="3px">
+				<thead>
+					<tr class="head" cellspacing="3px">
+						<th class="small">Vignette</th>
+						<th class="large">Nom de la playlist</th>
+						<th class="large">Genre musical</th>
+						<th class="large">Date de creation</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr class="head_2"><td class="small">All work and play</td><td class="large">punk anglais 70's</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">rock london</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+					<tr class="head_2"><td class="small">All work and play</td><td class="large">electro</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">punk anglais 70's</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+					<tr class="head_2"><td class="small">All work and play</td><td class="large">rock london</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">electro</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+					<tr class="head_2"><td class="small">All work and play</td><td class="large">punk anglais 70's</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">rock london</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+					<tr class="head_2"><td class="small">All work and play</td><td class="large">All electro</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">punk anglais 70's</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+					<tr class="head_2"><td class="small">All work and play</td><td class="large">All electro</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">punk anglais 70's</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+					<tr class="head_2"><td class="small">All work and play</td><td class="large">All electro</td><td <td class="large">rock-pop-folk</td><td <td class="large">1 janvier 2012</td></tr>
+					<tr class="head_3"><td class="small">All work and play</td><td class="large">punk anglais 70's</td><td <td class="large">electro-pop</td><td <td class="large">1 janvier 2014</td></tr>
+				</tbody>
+			
+			</table>
+				
+		</div>
+		<div class="player"></div>
+	</div>
+  </body>
+</html>
