@@ -1,0 +1,54 @@
+.list {
+  background-image: url(../img/list/list_background.png);
+  width: 1370px;
+  background-repeat: no-repeat;
+}
+
+table {
+  padding: 20px;
+}
+
+th {
+  text-align: center;
+  font-size: 25px;
+}
+
+tr {
+  height: 56px;
+}
+
+td {
+  text-align: center;
+  font-size: 25px;
+}
+
+.head {
+  background-image: url('../img/list/red_rectangle.png');
+  width: 1330px;
+  height: 56px;
+  display: inline-table;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.head_2 {
+  background-image: url('../img/list/dark_right_rectangle.png');
+  width: 1330px;
+  background-repeat: no-repeat;
+  display: inline-table
+}
+
+.head_3 {
+  background-image: url('../img/list/light_right_rectangle.png');
+  width: 1330px;
+  background-repeat: no-repeat;
+  display: inline-table
+}
+
+.small {
+  width: 14%
+}
+
+.large {
+  width: 30%
+}

@@ -1,0 +1,30 @@
+.search_bar {
+  background-image: url(../img/searchbar/search_bar.png);
+  background-repeat: no-repeat;
+  width: 1370px;
+  height: 116px;
+  line-height: 116px;
+  margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid #BFBDBD;
+  color: black;
+  font-size: 35px;
+  width: 88%;
+  height: 42px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 65px;
+  margin-right: 20px;
+}
+
+.magnifier {
+  background-image: url(../img/searchbar/magnifier.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 42px;
+  display: inline-block;
+  vertical-align: middle;
+}
+

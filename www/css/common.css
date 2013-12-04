@@ -1,5 +1,67 @@
 body { 
   background-image: url(../img/common/background.jpg); 
   background-size : cover;
-  padding: 90px;
+  height: 100%;
+  color: white;
 }
+
+@font-face {
+      font-family: 'Magna-BlackCondensed';
+      src: url('../img/common/Magna-BlackCondensed.ttf');
+}
+
+#left_column {
+  float: left;
+  width: 480px;
+  margin-top: 90px;
+}
+
+.jukebox_logo {
+  background-image: url(../img/common/logo_jukebox.png);
+  background-repeat: no-repeat ;
+  width: 479px;
+  height: 298px;
+  margin-left: -20px;
+}
+
+#right_side {
+  float: right;
+  margin-top: 90px;
+  width: 1410px;
+}
+
+.player{
+  background-image: url(../img/common/player.png);
+  width: 1370px;
+  height: 89px;
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 45px;
+}
+
+li {
+  background-image: url(../img/common/button.png);
+  background-repeat: no-repeat ;
+  width: 280px;
+  height: 90px;
+  display: table;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+li:hover {
+  background-image: url(../img/common/button_pushed.png);
+}
+
+a {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
